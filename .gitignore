@@ -1,0 +1,11 @@
+node_modules/
+main.js
+*.hot-update.js
+*.hot-update.json
+.DS_Store
+dist/
+.vscode/
+.idea/
+*.log
+test-vault/
+coverage/

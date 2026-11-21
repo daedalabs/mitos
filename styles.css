@@ -1,0 +1,234 @@
+/* Mitos Content Engine Stylesheet */
+
+.mitos-view-container {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.mitos-header {
+  margin-bottom: 8px;
+}
+
+.mitos-header h3 {
+  margin: 0 0 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-normal);
+}
+
+.mitos-desc {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  margin: 0;
+}
+
+.mitos-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mitos-topic-input {
+  width: 100%;
+  resize: vertical;
+  min-height: 72px;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  padding: 8px;
+  color: var(--text-normal);
+  font-family: inherit;
+  font-size: var(--font-ui-small);
+}
+
+.mitos-topic-input:focus {
+  border-color: var(--interactive-accent);
+  outline: none;
+}
+
+.mitos-context-notice {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.mitos-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mitos-date-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+}
+
+.mitos-date-input {
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+  padding: 2px 6px;
+  color: var(--text-normal);
+  font-size: var(--font-ui-smaller);
+}
+
+.mitos-warning {
+  background: var(--background-modifier-warning);
+  border: 1px solid var(--text-warning);
+  color: var(--text-normal);
+  padding: 8px 12px;
+  border-radius: var(--radius-s);
+  font-size: var(--font-ui-small);
+}
+
+.mitos-error {
+  background: var(--background-modifier-error);
+  border: 1px solid var(--text-error);
+  color: var(--text-normal);
+  padding: 8px 12px;
+  border-radius: var(--radius-s);
+  font-size: var(--font-ui-small);
+}
+
+.mitos-results {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mitos-card {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  padding: 12px;
+  background: var(--background-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mitos-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.mitos-card-title {
+  font-weight: var(--font-bold);
+  color: var(--text-normal);
+  font-size: var(--font-ui-medium);
+}
+
+.mitos-badge {
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: var(--radius-s);
+  font-weight: var(--font-bold);
+  white-space: nowrap;
+}
+
+.mitos-badge.is-pass {
+  background: var(--background-modifier-success);
+  color: var(--text-success);
+  border: 1px solid var(--color-green);
+}
+
+.mitos-badge.is-fail {
+  background: var(--background-modifier-error);
+  color: var(--text-error);
+  border: 1px solid var(--color-red);
+}
+
+.mitos-card-row {
+  margin: 0;
+  font-size: var(--font-ui-small);
+  line-height: 1.4;
+  color: var(--text-normal);
+}
+
+.mitos-card-label {
+  font-weight: var(--font-semibold);
+  color: var(--text-muted);
+  margin-right: 4px;
+}
+
+.mitos-create {
+  margin-top: 4px;
+  align-self: flex-start;
+}
+
+/* Series Planner Styles */
+.mitos-series-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.mitos-series-header {
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 8px;
+}
+
+.mitos-series-title {
+  font-size: var(--font-ui-large);
+  font-weight: var(--font-bold);
+  color: var(--text-normal);
+}
+
+.mitos-archetype-select {
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+  padding: 4px 8px;
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+}
+
+.mitos-episode-card {
+  border: 1px solid var(--background-modifier-border-hover);
+  border-radius: var(--radius-m);
+  padding: 10px;
+  background: var(--background-secondary-alt);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mitos-episode-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mitos-episode-number {
+  font-weight: var(--font-bold);
+  color: var(--interactive-accent);
+}
+
+/* Loading & Empty States */
+.mitos-loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 24px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.mitos-empty-state {
+  text-align: center;
+  padding: 32px 16px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}

@@ -1,0 +1,108 @@
+================================================================================
+                    MITOS SOURCE-AVAILABLE SOFTWARE LICENSE
+================================================================================
+
+Copyright (c) 2026, Deogenes Maranan ("Licensor") / DaedaLabs.
+All rights reserved.
+
+This license governs your access to, use of, and integration with the Mitos
+software, Obsidian plugin code, brainstorming algorithms, anti-slop rulesets,
+data contracts, and documentation (collectively, the "Software").
+
+By accessing, downloading, installing, compiling, or using the Software, you agree
+to be bound by the terms and conditions of this Agreement. If you do not agree,
+do not access, download, compile, or use the Software.
+
+--------------------------------------------------------------------------------
+1. GRANT OF LICENSE (USAGE & VAULT INTEGRATION)
+--------------------------------------------------------------------------------
+Subject to the restrictions and requirements in Sections 2 and 3, Licensor
+grants you a non-exclusive, worldwide, revocable license to:
+  (a) View, inspect, study, and modify the source code of the Software solely
+      for personal, educational, research, or internal evaluation purposes;
+  (b) Compile the source code and install the Software inside your personal or
+      internal team Obsidian vaults for personal or internal evaluation use;
+  (c) Distribute or package the Software solely as an integrated component of an
+      authorized official Obsidian community distribution.
+
+--------------------------------------------------------------------------------
+2. RESTRICTIONS ON REDISTRIBUTION & COMMERCIALIZATION
+--------------------------------------------------------------------------------
+Except as expressly authorized under Section 1, you shall NOT:
+  (a) Distribute, publish, broadcast, sublicense, rent, lease, lend, host, or
+      otherwise convey to any third party any binary executable, precompiled
+      package, or derivative build of the Software, whether free of charge or for a fee.
+  (b) Package, rebrand, or sell the Software (or any substantially derived work)
+      as a standalone commercial plugin, competing application, or utility without
+      adding substantial, novel, and transformative functionality.
+  (c) Provide, operate, or expose the functionality of the Software as an
+      application service provider, software-as-a-service (SaaS), hosted web
+      service, or cloud API.
+  (d) Circumvent, modify, or remove any copyright notices, license texts, or
+      proprietary marks from the source code or user interface.
+
+--------------------------------------------------------------------------------
+3. MANDATORY ATTRIBUTION REQUIREMENTS
+--------------------------------------------------------------------------------
+Any product, plugin, public fork, research publication, or documentation that
+references, embeds, links to, or showcases the Software (or any substantially
+derived work) must prominently display visible attribution to Licensor:
+  (a) In user-facing documentation, plugin settings/descriptions, "About" modals,
+      or credit notices, using the exact text:
+      "Powered by Mitos / DaedaLabs (Deogenes Maranan)"
+  (b) In source code distributions, all copyright notices and this license
+      agreement must remain intact and unaltered in all copies or substantial
+      portions of the Software.
+
+--------------------------------------------------------------------------------
+4. EXCLUSIVE DISTRIBUTION OF OFFICIAL PREBUILT RELEASES
+--------------------------------------------------------------------------------
+Official prebuilt release bundles, community plugin packages, and signed assets
+are packaged, maintained, and distributed exclusively by Licensor. No third party
+is authorized to mirror, repackage, or distribute unofficial prebuilt binaries.
+
+--------------------------------------------------------------------------------
+5. CONTRIBUTIONS AND PULL REQUESTS
+--------------------------------------------------------------------------------
+By submitting any code, pull request, patch, bug fix, feature, documentation,
+or other modification ("Contribution") to the project repository or to Licensor:
+  (a) You warrant and represent that the Contribution is your original creation
+      and that you possess full legal right and authority to grant this license;
+  (b) You grant Licensor a perpetual, irrevocable, worldwide, royalty-free,
+      transferable, assignable, fully sublicensable license to use, modify, merge,
+      compile, reproduce, publish, relicense, commercialize, or archive your
+      Contribution under this License or under any other proprietary, open-source,
+      or commercial terms chosen by Licensor, without obligation or compensation
+      to you.
+
+--------------------------------------------------------------------------------
+6. RESERVATION OF RIGHTS & ARCHIVAL
+--------------------------------------------------------------------------------
+Licensor expressly reserves all rights not explicitly granted herein. Licensor
+retains the sole, exclusive right to:
+  (a) Archive, deprecate, or cease development and public maintenance of the
+      repository at any time;
+  (b) Release future updates, releases, or derivative editions under different,
+      updated, or fully closed/proprietary licensing terms.
+
+--------------------------------------------------------------------------------
+7. THIRD-PARTY COMPONENTS
+--------------------------------------------------------------------------------
+The Software incorporates certain third-party libraries and modules licensed
+under permissive open-source terms (including MIT, BSD, Apache 2.0, and ISC).
+Nothing in this Agreement restricts your rights under the applicable third-party
+licenses for those specific independent modules. Detailed inventories and notices
+for third-party components are maintained in the THIRD_PARTY_NOTICES.md file
+accompanying the Software.
+
+--------------------------------------------------------------------------------
+8. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+================================================================================

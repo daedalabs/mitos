@@ -1,0 +1,37 @@
+{
+  "name": "mitos",
+  "version": "0.1.0",
+  "description": "AI brainstorming, series planning, and anti-slop content engine for Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "typecheck": "tsc -noEmit -skipLibCheck",
+    "build": "npm run typecheck && node esbuild.config.mjs production",
+    "test": "vitest run",
+    "setup:kanban": "node scripts/setup-kanban.mjs",
+    "dev:vault": "node scripts/dev-vault.mjs"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "plugin",
+    "content-creation",
+    "brainstorming",
+    "anti-slop",
+    "planning"
+  ],
+  "author": "Deogenes Maranan / DaedaLabs",
+  "license": "Source-Available",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.20.1",
+    "obsidian": "1.8.7",
+    "tslib": "2.6.2",
+    "typescript": "5.3.3",
+    "vitest": "^1.6.1"
+  }
+}

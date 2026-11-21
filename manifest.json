@@ -1,0 +1,11 @@
+{
+  "id": "mitos",
+  "name": "Mitos",
+  "version": "0.1.0",
+  "minAppVersion": "1.8.0",
+  "description": "AI brainstorming, series planning, and anti-slop content engine for technical creators.",
+  "author": "Deogenes Maranan / DaedaLabs",
+  "authorUrl": "https://github.com/daedalabs",
+  "fundingUrl": "https://github.com/daedalabs/mitos",
+  "isDesktopOnly": false
+}
